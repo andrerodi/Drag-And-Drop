@@ -53,8 +53,9 @@ body {
 }
 
 .card {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   --bulma-card-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1), 0 2px 4px rgba(10, 10, 10, 0.1);
+  --bulma-card-background-color: rgba(20, 22, 26, 0.6);
 }
 
 .card:not(:last-child) {
